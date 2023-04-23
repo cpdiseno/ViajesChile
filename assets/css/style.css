@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header {
+    background-size: cover;
+    }
+
+.fondo {
+    background-color: #060706;
+    width: 90%;
+}
+
+.fondoiconos {
+background-color: #2b3d1b;
+text-align: center;
+
+}
+
+
+.fondo2 {
+    background-color: #4f884f;
+    
+}
+
+.parrafos {
+    color: #f6fcd0;
+    font-size: 14px;
+}
+
+.titulo {
+    color: #fcfce8;
+    text-align: center;
+    font: size 30px; ;
+}
+
+.card-text {
+   
+    font-size: 13px;
+}
+
+#tarjeta {
+    background-color: #060706;
+    color: #f6fcd0;
+    text-align: left;
+
+
+}
+
+.imgcard {
+    height: 160px;
+}
+
+.fondo3 {
+    background-color: #2b3d1b;
+}
+
+
+
+
+
+
+
+@media (min-width : 992px) {
+    .offcanvas {
+      visibility      : visible;
+      position        : relative;
+      background      : none;
+      border          : none;
+      justify-content : end;
+      color           : rgb(19, 53, 4);
+    }
+  }
+  @media (max-width : 992px) {
+    .offcanvas {
+      width : 250px !important;
+    }
+    .offcanvas-start-lg {
+      top          : 0;
+      left         : 0;
+      border-right : 1px solid rgba(0, 0, 0, .2);
+      transform    : translateX(-100%);
+    }
+  }
+  .navbar-nav li a {
+    color: white !important;
+  }
