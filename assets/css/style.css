@@ -60,10 +60,13 @@ text-align: center;
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 
-
+/* Off canvas menù en mobile */
 
 @media (min-width : 992px) {
     .offcanvas {
